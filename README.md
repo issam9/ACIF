@@ -1,6 +1,8 @@
 # Aligned Continuous Integrate-and-Fire (ACIF)
 
-Code for reproducing our method for training SpeechLLMs using only Automatic Speech Recognition (ASR) data. 
+Code for reproducing our method for training SpeechLLMs using only Automatic Speech Recognition (ASR) data. The paper was accepted at WMT2026. 
+
+![alt text](image.png)
 
 ## Setup
 ```bash
@@ -50,7 +52,7 @@ python acif/train.py \
 ## Evaluation
 First download and extract [Europarl-ST](https://www.mllp.upv.es/europarl-st/v1.1.tar.gz) and [CoVoST2](https://mozilladatacollective.com/) data.
 
-Second we convert audio files into wav files and compress them:
+Second convert audio files into wav files and compress them:
 ```bash
 python evaluation/convert_to_wav.py --input data/covost_v2-en_de/clips --output data/covost_v2-en_de/clips_wav
 zip -r -0 data/covost_v2-en_de/clips_wav.zip data/covost_v2-en_de/clips_wav
