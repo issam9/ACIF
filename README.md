@@ -1,6 +1,6 @@
-# Aligned Continuous Integrate-and-Fire (ACIF)
+# Align, Integrate, and Fire: Efficient Token-Level Alignment for Zero-Shot SpeechLLMs
 
-Code for reproducing our method for training SpeechLLMs using only Automatic Speech Recognition (ASR) data. The paper was accepted at WMT2026. 
+Code for reproducing Aligned Continuous Integrate-and-Fire (ACIF), our method for training SpeechLLMs using only ASR data. The paper was accepted at WMT2026. 
 
 ![alt text](image.png)
 
